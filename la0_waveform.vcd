@@ -1,0 +1,97 @@
+#0 $dumpon
+$date today $end
+$timescale 1 ns $end
+$scope module top $end
+$var wire 8 0 pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/rw_config $end
+$var wire 3 1 pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/g_state $end
+$var wire 1 2 pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/g_rd_fifo_en $end
+$var wire 32 3 pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/g_oe $end
+$var wire 8 4 pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/g_data $end
+$var wire 8 5 pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/gpio_oe $end
+$var wire 8 6 pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/gpio_out $end
+$var wire 8 7 pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/gpio_in_prev $end
+$var wire 32 8 pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/gpio_config $end
+$var wire 8 9 pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/edge_config $end
+$var wire 1 a pp/w_gpio_rd_fifo_en $end
+$var wire 1 b pp/w_gpio_dt_fifo_enable $end
+$var wire 51 c pp/w_gpio_dt_fifo_data $end
+$var wire 1 d pp/w_gpio_grp_en $end
+$var wire 32 e pp/w_gpio_config_bus $end
+$var wire 8 f pp/gpio_out $end
+$var wire 8 10 pp/gpio_oe $end
+$var wire 1 11 pp/fifo_read_en $end
+$var wire 1 12 pp/fifo_en $end
+$var wire 32 13 pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/g_config_data $end
+$var wire 8 14 pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/rd_gpio_out $end
+$var wire 8 15 pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/r_rd_gpio_out $end
+$var wire 1 16 pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/read $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b00000000 0
+b000 1
+02
+b00000000000000000000001000000000 3
+b00000000 4
+b00000000 5
+b00000000 6
+b00000010 7
+b00000000000000000000001000000000 8
+b00000000 9
+0a
+0b
+b000000000000000000000000000000000000000000000000000 c
+0d
+b00000000000000000000001000000000 e
+b00000000 f
+b00000000 10
+011
+012
+b00000000000000000000001000000000 13
+b00000000 14
+b00000000 15
+016
+$end
+#1024
+12
+b00000000 7
+b00000010 14
+b00000010 15
+#1025
+02
+#1026
+b00000000 14
+b00000000 15
+#1039
+1a
+#1040
+0a
+#1043
+112
+#1044
+012
+#2047
+b00000000 0
+b000 1
+02
+b00000000000000000000001000000000 3
+b00000000 4
+b00000000 5
+b00000000 6
+b00000000 7
+b00000000000000000000001000000000 8
+b00000000 9
+0a
+0b
+b000000000000000000000000000000000000000000000000000 c
+0d
+b00000000000000000000001000000000 e
+b00000000 f
+b00000000 10
+011
+012
+b00000000000000000000001000000000 13
+b00000000 14
+b00000000 15
+016

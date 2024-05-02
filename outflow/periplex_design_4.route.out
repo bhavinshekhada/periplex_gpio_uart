@@ -1,0 +1,132 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307 
+Compiled: Dec 15 2023.
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T120F324" ...
+
+***** Beginning stage routing graph generation ... *****
+Read ipin pattern from C:/Efinity/2023.2/arch/./ipin_oph.xml
+Finished parsing ipin pattern file 'C:/Efinity/2023.2/arch/./ipin_oph.xdb'.
+Finished parsing switch_block file 'C:/Efinity/2023.2/arch/.\sb_connectivity_subset.xdb'.
+BuildGraph process took 46.976 seconds.
+	BuildGraph process took 31.0156 seconds (approximately) in total CPU time.
+BuildGraph process virtual memory usage: begin = 257.088 MB, end = 2401.34 MB, delta = 2144.25 MB
+	BuildGraph process peak virtual memory usage = 2427.16 MB
+BuildGraph process resident set memory usage: begin = 232.868 MB, end = 2056.94 MB, delta = 1824.07 MB
+	BuildGraph process peak resident set memory usage = 2086 MB
+check rr_graph process took 2.47756 seconds.
+	check rr_graph process took 0.5 seconds (approximately) in total CPU time.
+check rr_graph process virtual memory usage: begin = 2616.22 MB, end = 2616.22 MB, delta = 0 MB
+	check rr_graph process peak virtual memory usage = 2674.86 MB
+check rr_graph process resident set memory usage: begin = 1633.36 MB, end = 1597.74 MB, delta = -35.62 MB
+	check rr_graph process peak resident set memory usage = 2111.78 MB
+Generated 6654612 RR nodes and 25228809 RR edges
+This design has 0 global control net(s). See C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/outflow\periplex_design_4.route.rpt for details.
+Routing graph took 51.0871 seconds.
+	Routing graph took 31.9062 seconds (approximately) in total CPU time.
+Routing graph virtual memory usage: begin = 255.692 MB, end = 2395.01 MB, delta = 2139.32 MB
+	Routing graph peak virtual memory usage = 2674.86 MB
+Routing graph resident set memory usage: begin = 231.64 MB, end = 1784.15 MB, delta = 1552.51 MB
+	Routing graph peak resident set memory usage = 2111.78 MB
+***** Ending stage routing graph generation *****
+
+***** Beginning stage routing ... *****
+
+SDC file 'C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/constraints.sdc' parsed successfully.
+2 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
+
+
+ ---------      -------     --------------      -------------
+ Iteration      Overuse     Crit Path (ns)      Calc Time (s)
+ ---------      -------     --------------      -------------
+         1        62262              6.594               17.4
+         2         6659              6.668               16.6
+         3         3699              6.666               12.8
+         4         1445              6.918               10.5
+         5          472              6.989                6.1
+         6          151              7.032               3.29
+         7           62              7.136               1.86
+         8           21              7.136               1.83
+         9            6              7.136              0.718
+        10            0              7.136              0.643
+
+Successfully routed netlist after 10 routing iterations and 206663930 heapops
+Completed net delay value cross check successfully.
+
+***** Beginning stage routing check ... *****
+***** Ending stage routing check *****
+
+
+Serial number (magic cookie) for the routing is: 1500412012
+Netlist fully routed.
+
+Successfully created FPGA route file 'C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/outflow/periplex_design_4.route'
+Routing took 79.1795 seconds.
+	Routing took 56.3906 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 2395.01 MB, end = 2497.6 MB, delta = 102.588 MB
+	Routing peak virtual memory usage = 3038.64 MB
+Routing resident set memory usage: begin = 1784.22 MB, end = 1982.32 MB, delta = 198.096 MB
+	Routing peak resident set memory usage = 2409.21 MB
+***** Ending stage routing *****
+
+***** Beginning stage final timing analysis ... *****
+
+SDC file 'C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/constraints.sdc' parsed successfully.
+2 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
+
+Maximum possible analyzed clocks frequency
+ Clock Name  Period (ns)  Frequency (MHz)     Edge
+    clk1        15.840        63.131         (R-R)
+    clk2         7.256       137.817         (R-R)
+
+Geomean max period: 10.721
+
+Setup (Max) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+      clk1             clk1            20.000           4.160            (R-R)
+      clk1             clk2            10.000           7.764            (R-R)
+      clk2             clk1            10.000           7.590            (R-R)
+      clk2             clk2            10.000           2.744            (R-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+      clk1             clk1            0.000            0.116            (R-R)
+      clk1             clk2            0.000            0.307            (R-R)
+      clk2             clk1            0.000            0.307            (R-R)
+      clk2             clk2            0.000            0.086            (R-R)
+
+Write Timing Report to "C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/outflow\periplex_design_4.timing.rpt" ...
+final timing analysis took 2.24591 seconds.
+	final timing analysis took 1.4375 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 2468.8 MB, end = 2493.68 MB, delta = 24.876 MB
+	final timing analysis peak virtual memory usage = 3038.64 MB
+final timing analysis resident set memory usage: begin = 1965.54 MB, end = 1986.15 MB, delta = 20.616 MB
+	final timing analysis peak resident set memory usage = 2409.21 MB
+***** Ending stage final timing analysis *****
+
+***** Beginning stage bitstream generation ... *****
+Reading core interface constraints from 'C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/outflow/periplex_design_4.interface.csv'.
+Successfully processed interface constraints file "C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/outflow/periplex_design_4.interface.csv".
+Finished writing bitstream file C:/Users/Dell/Downloads/periplex_design_5_write_read (5)/periplex_design_5_write_read/periplex_design_5_write_read/work_pnr\periplex_design_4.lbf.
+Bitstream generation took 4.81863 seconds.
+	Bitstream generation took 3.39062 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 2493.68 MB, end = 2679.09 MB, delta = 185.412 MB
+	Bitstream generation peak virtual memory usage = 3038.64 MB
+Bitstream generation resident set memory usage: begin = 1986.18 MB, end = 2176.56 MB, delta = 190.384 MB
+	Bitstream generation peak resident set memory usage = 2409.21 MB
+***** Ending stage bitstream generation *****
+
+The entire flow of EFX_PNR took 313.781 seconds.
+	The entire flow of EFX_PNR took 264.438 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 5.58 MB, end = 289.228 MB, delta = 283.648 MB
+	The entire flow of EFX_PNR peak virtual memory usage = 3038.64 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 12.752 MB, end = 194.248 MB, delta = 181.496 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 2409.21 MB

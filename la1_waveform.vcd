@@ -1,0 +1,133 @@
+#0 $dumpon
+$date today $end
+$timescale 1 ns $end
+$scope module top $end
+$var wire 1 0 pp/UART_PERIPHERAL[0].uart/rd_fifo_en $end
+$var wire 1 1 pp/UART_PERIPHERAL[0].uart/Tx_Active $end
+$var wire 1 2 pp/UART_PERIPHERAL[0].uart/Tx_Done $end
+$var wire 1 3 pp/UART_PERIPHERAL[0].uart/Tx_Serial $end
+$var wire 32 4 pp/UART_PERIPHERAL[0].uart/uart_config_data $end
+$var wire 51 5 pp/UART_PERIPHERAL[0].uart/uart_dt_fifo_data $end
+$var wire 1 6 pp/UART_PERIPHERAL[0].uart/uart_dt_fifo_enable $end
+$var wire 1 7 pp/uart_grp/cfg $end
+$var wire 4 8 pp/uart_grp/count $end
+$var wire 1 9 pp/uart_grp/flag_frame_1 $end
+$var wire 1 a pp/uart_grp/flag_int_done $end
+$var wire 2 b pp/uart_grp/flag_rd $end
+$var wire 1 c pp/uart_grp/interrupt $end
+$var wire 1 d pp/uart_grp/int_ack $end
+$var wire 1 e pp/uart_grp/parallel $end
+$var wire 2 f pp/uart_grp/rd_fifo_en $end
+$var wire 64 10 pp/uart_grp/r_config_bus $end
+$var wire 102 11 pp/uart_grp/r_dt_fifo_data $end
+$var wire 2 12 pp/uart_grp/r_dt_fifo_enable $end
+$var wire 2 13 pp/uart_grp/r_grp_id $end
+$var wire 2 14 pp/uart_grp/r_int $end
+$var wire 2 15 pp/uart_grp/r_rd_fifo_en $end
+$var wire 7 16 pp/uart_grp/r_slv_sel $end
+$var wire 7 17 pp/uart_grp/r_strobe $end
+$var wire 7 18 pp/uart_grp/slv_sel $end
+$var wire 3 19 pp/uart_grp/state $end
+$var wire 7 1a pp/uart_grp/str_len $end
+$var wire 64 1b pp/uart_grp/uart_config_bus $end
+$var wire 102 1c pp/uart_grp/uart_dt_fifo_data $end
+$var wire 2 1d pp/uart_grp/uart_dt_fifo_enable $end
+$var wire 1 1e pp/uart_grp/uart_grp_en $end
+$var wire 48 1f pp/uart_grp/value $end
+$var wire 51 20 pp/UART_PERIPHERAL[0].uart/dt_module/dt_fifo_51/wdata $end
+$var wire 1 21 pp/UART_PERIPHERAL[0].uart/dt_module/dt_fifo_51/wr_en_i $end
+$var wire 51 22 pp/UART_PERIPHERAL[0].uart/dt_module/fifo_data $end
+$var wire 1 23 pp/UART_PERIPHERAL[0].uart/dt_module/fifo_enable $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+00
+11
+02
+13
+b00000000000000000000000110110101 4
+b000000000000000000000000000000000000000000000000000 5
+06
+07
+b1000 8
+09
+0a
+b00 b
+0c
+0d
+0e
+b00 f
+b0000000000000000000000011011010100000000000000000000000110110101 10
+b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 11
+b00 12
+b00 13
+b00 14
+b00 15
+b0000000 16
+b0000001 17
+b0000000 18
+b000 19
+b0000000 1a
+b0000000000000000000000011011010100000000000000000000000110110101 1b
+b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 1c
+b00 1d
+01e
+b000000000000000000000000000000000000000000000000 1f
+b000000000000000000000000000000000000000000000000000 20
+021
+b000000000000000000000000000000000000000000000000000 22
+023
+$end
+#151
+03
+#588
+13
+#1024
+01
+12
+#1026
+02
+#1029
+11
+#1030
+03
+#1904
+13
+#2047
+00
+11
+02
+13
+b00000000000000000000000110110101 4
+b000000000000000000000000000000000000000000000000000 5
+06
+07
+b1000 8
+09
+0a
+b00 b
+0c
+0d
+0e
+b00 f
+b0000000000000000000000011011010100000000000000000000000110110101 10
+b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 11
+b00 12
+b00 13
+b00 14
+b00 15
+b0000000 16
+b0000001 17
+b0000000 18
+b000 19
+b0000000 1a
+b0000000000000000000000011011010100000000000000000000000110110101 1b
+b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 1c
+b00 1d
+01e
+b000000000000000000000000000000000000000000000000 1f
+b000000000000000000000000000000000000000000000000000 20
+021
+b000000000000000000000000000000000000000000000000000 22
+023

@@ -1,0 +1,3817 @@
+{
+    "debug_cores": [
+        {
+            "name": "la0",
+            "type": "la",
+            "uuid": "4265caf9a4c2487d9ed6fb4d86c657a9",
+            "trigin_en": false,
+            "trigout_en": false,
+            "auto_inserted": true,
+            "capture_control": true,
+            "data_depth": 2048,
+            "input_pipeline": 1,
+            "probes": [
+                {
+                    "name": "pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/rw_config",
+                    "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/g_state",
+                    "width": 3,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/g_rd_fifo_en",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/g_oe",
+                    "width": 32,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/g_data",
+                    "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/gpio_oe",
+                    "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/gpio_out",
+                    "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/gpio_in_prev",
+                    "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/gpio_config",
+                    "width": 32,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/edge_config",
+                    "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/w_gpio_rd_fifo_en",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/w_gpio_dt_fifo_enable",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/w_gpio_dt_fifo_data",
+                    "width": 51,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/w_gpio_grp_en",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/w_gpio_config_bus",
+                    "width": 32,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/gpio_out",
+                    "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/gpio_oe",
+                    "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/fifo_read_en",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/fifo_en",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/g_config_data",
+                    "width": 32,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/rd_gpio_out",
+                    "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/r_rd_gpio_out",
+                    "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/read",
+                    "width": 1,
+                    "probe_type": 1
+                }
+            ]
+        },
+        {
+            "name": "la1",
+            "type": "la",
+            "uuid": "a1c8deeb76bd4d9593849cca751394d8",
+            "trigin_en": false,
+            "trigout_en": false,
+            "auto_inserted": true,
+            "capture_control": true,
+            "data_depth": 2048,
+            "input_pipeline": 1,
+            "probes": [
+                {
+                    "name": "pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_write_ctrl/empty",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/rdata",
+                    "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/empty_o",
+                    "width": 1,
+                    "probe_type": 1
+                }
+            ]
+        },
+        {
+            "name": "la2",
+            "type": "la",
+            "uuid": "cb3f9136348e41a7bb9c7b3841fdec31",
+            "trigin_en": false,
+            "trigout_en": false,
+            "auto_inserted": true,
+            "capture_control": true,
+            "data_depth": 2048,
+            "input_pipeline": 1,
+            "probes": [
+                {
+                    "name": "pp/w_gpio_rd_fifo_data",
+                    "width": 8,
+                    "probe_type": 1
+                }
+            ]
+        },
+        {
+            "name": "la3",
+            "type": "la",
+            "uuid": "3980691a426c4be595376e01395d28f0",
+            "trigin_en": false,
+            "trigout_en": false,
+            "auto_inserted": true,
+            "capture_control": true,
+            "data_depth": 2048,
+            "input_pipeline": 1,
+            "probes": [
+                {
+                    "name": "pp/f_empty",
+                    "width": 1,
+                    "probe_type": 1
+                }
+            ]
+        },
+        {
+            "name": "la4",
+            "type": "la",
+            "uuid": "a21ceb4623d64252984b5ffbb3d831d2",
+            "trigin_en": false,
+            "trigout_en": false,
+            "auto_inserted": true,
+            "capture_control": true,
+            "data_depth": 2048,
+            "input_pipeline": 1,
+            "probes": [
+                {
+                    "name": "pp/fifo_read_data",
+                    "width": 48,
+                    "probe_type": 1
+                }
+            ]
+        },
+        {
+            "name": "la5",
+            "type": "la",
+            "uuid": "a4105030ad8c4a05898534004e9491ad",
+            "trigin_en": false,
+            "trigout_en": false,
+            "auto_inserted": true,
+            "capture_control": true,
+            "data_depth": 2048,
+            "input_pipeline": 1,
+            "probes": [
+                {
+                    "name": "pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/w_gpio_wr_en",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/wdata",
+                    "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/wr_en_i",
+                    "width": 1,
+                    "probe_type": 1
+                }
+            ]
+        },
+        {
+            "name": "la6",
+            "type": "la",
+            "uuid": "2304c138f8914feca303b39adeca584f",
+            "trigin_en": false,
+            "trigout_en": false,
+            "auto_inserted": true,
+            "capture_control": true,
+            "data_depth": 2048,
+            "input_pipeline": 1,
+            "probes": [
+                {
+                    "name": "pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/full_o",
+                    "width": 1,
+                    "probe_type": 1
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "command": "add_ports",
+            "id": 1,
+            "args": {
+                "netlist": "test_module",
+                "ports": [
+                    {
+                        "name": "jtag_inst1_CAPTURE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_DRCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_RESET",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_RUNTEST",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_SEL",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_SHIFT",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TDI",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TMS",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_UPDATE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TDO",
+                        "dir": "out",
+                        "width": 1
+                    }
+                ]
+            }
+        },
+        {
+            "command": "instantiate",
+            "netlist": "edb_top",
+            "id": 2,
+            "instance": "edb_top_inst"
+        },
+        {
+            "command": "connect",
+            "id": 3,
+            "args": {
+                "instance": "edb_top_inst",
+                "ports": [
+                    {
+                        "name": "bscan_CAPTURE",
+                        "net": "jtag_inst1_CAPTURE"
+                    },
+                    {
+                        "name": "bscan_DRCK",
+                        "net": "jtag_inst1_DRCK"
+                    },
+                    {
+                        "name": "bscan_RESET",
+                        "net": "jtag_inst1_RESET"
+                    },
+                    {
+                        "name": "bscan_RUNTEST",
+                        "net": "jtag_inst1_RUNTEST"
+                    },
+                    {
+                        "name": "bscan_SEL",
+                        "net": "jtag_inst1_SEL"
+                    },
+                    {
+                        "name": "bscan_SHIFT",
+                        "net": "jtag_inst1_SHIFT"
+                    },
+                    {
+                        "name": "bscan_TCK",
+                        "net": "jtag_inst1_TCK"
+                    },
+                    {
+                        "name": "bscan_TDI",
+                        "net": "jtag_inst1_TDI"
+                    },
+                    {
+                        "name": "bscan_TMS",
+                        "net": "jtag_inst1_TMS"
+                    },
+                    {
+                        "name": "bscan_UPDATE",
+                        "net": "jtag_inst1_UPDATE"
+                    },
+                    {
+                        "name": "bscan_TDO",
+                        "net": "jtag_inst1_TDO"
+                    },
+                    {
+                        "name": "la0_clk",
+                        "net": "clk1",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[0]",
+                        "net": "rw_config[0]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[1]",
+                        "net": "rw_config[1]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[2]",
+                        "net": "rw_config[2]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[3]",
+                        "net": "rw_config[3]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[4]",
+                        "net": "rw_config[4]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[5]",
+                        "net": "rw_config[5]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[6]",
+                        "net": "rw_config[6]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[7]",
+                        "net": "rw_config[7]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[0]",
+                        "net": "g_state[0]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[1]",
+                        "net": "g_state[1]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[2]",
+                        "net": "g_state[2]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2",
+                        "net": "g_rd_fifo_en",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[0]",
+                        "net": "g_oe[0]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[1]",
+                        "net": "g_oe[1]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[2]",
+                        "net": "g_oe[2]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[3]",
+                        "net": "g_oe[3]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[4]",
+                        "net": "g_oe[4]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[5]",
+                        "net": "g_oe[5]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[6]",
+                        "net": "g_oe[6]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[7]",
+                        "net": "g_oe[7]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[8]",
+                        "net": "g_oe[8]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[9]",
+                        "net": "g_oe[9]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[10]",
+                        "net": "g_oe[10]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[11]",
+                        "net": "g_oe[11]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[12]",
+                        "net": "g_oe[12]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[13]",
+                        "net": "g_oe[13]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[14]",
+                        "net": "g_oe[14]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[15]",
+                        "net": "g_oe[15]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[16]",
+                        "net": "g_oe[16]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[17]",
+                        "net": "g_oe[17]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[18]",
+                        "net": "g_oe[18]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[19]",
+                        "net": "g_oe[19]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[20]",
+                        "net": "g_oe[20]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[21]",
+                        "net": "g_oe[21]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[22]",
+                        "net": "g_oe[22]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[23]",
+                        "net": "g_oe[23]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[24]",
+                        "net": "g_oe[24]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[25]",
+                        "net": "g_oe[25]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[26]",
+                        "net": "g_oe[26]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[27]",
+                        "net": "g_oe[27]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[28]",
+                        "net": "g_oe[28]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[29]",
+                        "net": "g_oe[29]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[30]",
+                        "net": "g_oe[30]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[31]",
+                        "net": "g_oe[31]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[0]",
+                        "net": "g_data[0]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[1]",
+                        "net": "g_data[1]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[2]",
+                        "net": "g_data[2]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[3]",
+                        "net": "g_data[3]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[4]",
+                        "net": "g_data[4]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[5]",
+                        "net": "g_data[5]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[6]",
+                        "net": "g_data[6]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[7]",
+                        "net": "g_data[7]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[0]",
+                        "net": "gpio_oe[0]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[1]",
+                        "net": "gpio_oe[1]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[2]",
+                        "net": "gpio_oe[2]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[3]",
+                        "net": "gpio_oe[3]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[4]",
+                        "net": "gpio_oe[4]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[5]",
+                        "net": "gpio_oe[5]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[6]",
+                        "net": "gpio_oe[6]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[7]",
+                        "net": "gpio_oe[7]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[0]",
+                        "net": "gpio_out[0]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[1]",
+                        "net": "gpio_out[1]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[2]",
+                        "net": "gpio_out[2]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[3]",
+                        "net": "gpio_out[3]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[4]",
+                        "net": "gpio_out[4]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[5]",
+                        "net": "gpio_out[5]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[6]",
+                        "net": "gpio_out[6]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[7]",
+                        "net": "gpio_out[7]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[0]",
+                        "net": "gpio_in_prev[0]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[1]",
+                        "net": "gpio_in_prev[1]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[2]",
+                        "net": "gpio_in_prev[2]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[3]",
+                        "net": "gpio_in_prev[3]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[4]",
+                        "net": "gpio_in_prev[4]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[5]",
+                        "net": "gpio_in_prev[5]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[6]",
+                        "net": "gpio_in_prev[6]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[7]",
+                        "net": "gpio_in_prev[7]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[0]",
+                        "net": "gpio_config[0]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[1]",
+                        "net": "gpio_config[1]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[2]",
+                        "net": "gpio_config[2]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[3]",
+                        "net": "gpio_config[3]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[4]",
+                        "net": "gpio_config[4]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[5]",
+                        "net": "gpio_config[5]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[6]",
+                        "net": "gpio_config[6]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[7]",
+                        "net": "gpio_config[7]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[8]",
+                        "net": "gpio_config[8]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[9]",
+                        "net": "gpio_config[9]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[10]",
+                        "net": "gpio_config[10]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[11]",
+                        "net": "gpio_config[11]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[12]",
+                        "net": "gpio_config[12]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[13]",
+                        "net": "gpio_config[13]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[14]",
+                        "net": "gpio_config[14]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[15]",
+                        "net": "gpio_config[15]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[16]",
+                        "net": "gpio_config[16]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[17]",
+                        "net": "gpio_config[17]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[18]",
+                        "net": "gpio_config[18]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[19]",
+                        "net": "gpio_config[19]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[20]",
+                        "net": "gpio_config[20]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[21]",
+                        "net": "gpio_config[21]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[22]",
+                        "net": "gpio_config[22]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[23]",
+                        "net": "gpio_config[23]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[24]",
+                        "net": "gpio_config[24]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[25]",
+                        "net": "gpio_config[25]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[26]",
+                        "net": "gpio_config[26]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[27]",
+                        "net": "gpio_config[27]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[28]",
+                        "net": "gpio_config[28]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[29]",
+                        "net": "gpio_config[29]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[30]",
+                        "net": "gpio_config[30]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[31]",
+                        "net": "gpio_config[31]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[0]",
+                        "net": "edge_config[0]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[1]",
+                        "net": "edge_config[1]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[2]",
+                        "net": "edge_config[2]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[3]",
+                        "net": "edge_config[3]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[4]",
+                        "net": "edge_config[4]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[5]",
+                        "net": "edge_config[5]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[6]",
+                        "net": "edge_config[6]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[7]",
+                        "net": "edge_config[7]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe10",
+                        "net": "w_gpio_rd_fifo_en[0]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11",
+                        "net": "w_gpio_dt_fifo_enable[0]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[0]",
+                        "net": "w_gpio_dt_fifo_data[0]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[1]",
+                        "net": "w_gpio_dt_fifo_data[1]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[2]",
+                        "net": "w_gpio_dt_fifo_data[2]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[3]",
+                        "net": "w_gpio_dt_fifo_data[3]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[4]",
+                        "net": "w_gpio_dt_fifo_data[4]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[5]",
+                        "net": "w_gpio_dt_fifo_data[5]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[6]",
+                        "net": "w_gpio_dt_fifo_data[6]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[7]",
+                        "net": "w_gpio_dt_fifo_data[7]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[8]",
+                        "net": "w_gpio_dt_fifo_data[8]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[9]",
+                        "net": "w_gpio_dt_fifo_data[9]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[10]",
+                        "net": "w_gpio_dt_fifo_data[10]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[11]",
+                        "net": "w_gpio_dt_fifo_data[11]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[12]",
+                        "net": "w_gpio_dt_fifo_data[12]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[13]",
+                        "net": "w_gpio_dt_fifo_data[13]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[14]",
+                        "net": "w_gpio_dt_fifo_data[14]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[15]",
+                        "net": "w_gpio_dt_fifo_data[15]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[16]",
+                        "net": "w_gpio_dt_fifo_data[16]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[17]",
+                        "net": "w_gpio_dt_fifo_data[17]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[18]",
+                        "net": "w_gpio_dt_fifo_data[18]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[19]",
+                        "net": "w_gpio_dt_fifo_data[19]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[20]",
+                        "net": "w_gpio_dt_fifo_data[20]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[21]",
+                        "net": "w_gpio_dt_fifo_data[21]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[22]",
+                        "net": "w_gpio_dt_fifo_data[22]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[23]",
+                        "net": "w_gpio_dt_fifo_data[23]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[24]",
+                        "net": "w_gpio_dt_fifo_data[24]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[25]",
+                        "net": "w_gpio_dt_fifo_data[25]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[26]",
+                        "net": "w_gpio_dt_fifo_data[26]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[27]",
+                        "net": "w_gpio_dt_fifo_data[27]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[28]",
+                        "net": "w_gpio_dt_fifo_data[28]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[29]",
+                        "net": "w_gpio_dt_fifo_data[29]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[30]",
+                        "net": "w_gpio_dt_fifo_data[30]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[31]",
+                        "net": "w_gpio_dt_fifo_data[31]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[32]",
+                        "net": "w_gpio_dt_fifo_data[32]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[33]",
+                        "net": "w_gpio_dt_fifo_data[33]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[34]",
+                        "net": "w_gpio_dt_fifo_data[34]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[35]",
+                        "net": "w_gpio_dt_fifo_data[35]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[36]",
+                        "net": "w_gpio_dt_fifo_data[36]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[37]",
+                        "net": "w_gpio_dt_fifo_data[37]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[38]",
+                        "net": "w_gpio_dt_fifo_data[38]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[39]",
+                        "net": "w_gpio_dt_fifo_data[39]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[40]",
+                        "net": "w_gpio_dt_fifo_data[40]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[41]",
+                        "net": "w_gpio_dt_fifo_data[41]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[42]",
+                        "net": "w_gpio_dt_fifo_data[42]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[43]",
+                        "net": "w_gpio_dt_fifo_data[43]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[44]",
+                        "net": "w_gpio_dt_fifo_data[44]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[45]",
+                        "net": "w_gpio_dt_fifo_data[45]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[46]",
+                        "net": "w_gpio_dt_fifo_data[46]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[47]",
+                        "net": "w_gpio_dt_fifo_data[47]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[48]",
+                        "net": "w_gpio_dt_fifo_data[48]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[49]",
+                        "net": "w_gpio_dt_fifo_data[49]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[50]",
+                        "net": "w_gpio_dt_fifo_data[50]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13",
+                        "net": "w_gpio_grp_en",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[0]",
+                        "net": "w_gpio_config_bus[0]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[1]",
+                        "net": "w_gpio_config_bus[1]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[2]",
+                        "net": "w_gpio_config_bus[2]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[3]",
+                        "net": "w_gpio_config_bus[3]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[4]",
+                        "net": "w_gpio_config_bus[4]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[5]",
+                        "net": "w_gpio_config_bus[5]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[6]",
+                        "net": "w_gpio_config_bus[6]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[7]",
+                        "net": "w_gpio_config_bus[7]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[8]",
+                        "net": "w_gpio_config_bus[8]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[9]",
+                        "net": "w_gpio_config_bus[9]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[10]",
+                        "net": "w_gpio_config_bus[10]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[11]",
+                        "net": "w_gpio_config_bus[11]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[12]",
+                        "net": "w_gpio_config_bus[12]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[13]",
+                        "net": "w_gpio_config_bus[13]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[14]",
+                        "net": "w_gpio_config_bus[14]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[15]",
+                        "net": "w_gpio_config_bus[15]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[16]",
+                        "net": "w_gpio_config_bus[16]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[17]",
+                        "net": "w_gpio_config_bus[17]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[18]",
+                        "net": "w_gpio_config_bus[18]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[19]",
+                        "net": "w_gpio_config_bus[19]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[20]",
+                        "net": "w_gpio_config_bus[20]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[21]",
+                        "net": "w_gpio_config_bus[21]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[22]",
+                        "net": "w_gpio_config_bus[22]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[23]",
+                        "net": "w_gpio_config_bus[23]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[24]",
+                        "net": "w_gpio_config_bus[24]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[25]",
+                        "net": "w_gpio_config_bus[25]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[26]",
+                        "net": "w_gpio_config_bus[26]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[27]",
+                        "net": "w_gpio_config_bus[27]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[28]",
+                        "net": "w_gpio_config_bus[28]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[29]",
+                        "net": "w_gpio_config_bus[29]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[30]",
+                        "net": "w_gpio_config_bus[30]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[31]",
+                        "net": "w_gpio_config_bus[31]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[0]",
+                        "net": "gpio_out[0]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[1]",
+                        "net": "gpio_out[1]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[2]",
+                        "net": "gpio_out[2]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[3]",
+                        "net": "gpio_out[3]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[4]",
+                        "net": "gpio_out[4]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[5]",
+                        "net": "gpio_out[5]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[6]",
+                        "net": "gpio_out[6]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[7]",
+                        "net": "gpio_out[7]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe16[0]",
+                        "net": "gpio_oe[0]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe16[1]",
+                        "net": "gpio_oe[1]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe16[2]",
+                        "net": "gpio_oe[2]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe16[3]",
+                        "net": "gpio_oe[3]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe16[4]",
+                        "net": "gpio_oe[4]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe16[5]",
+                        "net": "gpio_oe[5]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe16[6]",
+                        "net": "gpio_oe[6]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe16[7]",
+                        "net": "gpio_oe[7]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe17",
+                        "net": "fifo_read_en",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18",
+                        "net": "fifo_en",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[0]",
+                        "net": "g_config_data[0]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[1]",
+                        "net": "g_config_data[1]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[2]",
+                        "net": "g_config_data[2]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[3]",
+                        "net": "g_config_data[3]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[4]",
+                        "net": "g_config_data[4]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[5]",
+                        "net": "g_config_data[5]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[6]",
+                        "net": "g_config_data[6]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[7]",
+                        "net": "g_config_data[7]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[8]",
+                        "net": "g_config_data[8]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[9]",
+                        "net": "g_config_data[9]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[10]",
+                        "net": "g_config_data[10]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[11]",
+                        "net": "g_config_data[11]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[12]",
+                        "net": "g_config_data[12]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[13]",
+                        "net": "g_config_data[13]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[14]",
+                        "net": "g_config_data[14]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[15]",
+                        "net": "g_config_data[15]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[16]",
+                        "net": "g_config_data[16]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[17]",
+                        "net": "g_config_data[17]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[18]",
+                        "net": "g_config_data[18]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[19]",
+                        "net": "g_config_data[19]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[20]",
+                        "net": "g_config_data[20]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[21]",
+                        "net": "g_config_data[21]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[22]",
+                        "net": "g_config_data[22]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[23]",
+                        "net": "g_config_data[23]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[24]",
+                        "net": "g_config_data[24]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[25]",
+                        "net": "g_config_data[25]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[26]",
+                        "net": "g_config_data[26]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[27]",
+                        "net": "g_config_data[27]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[28]",
+                        "net": "g_config_data[28]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[29]",
+                        "net": "g_config_data[29]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[30]",
+                        "net": "g_config_data[30]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[31]",
+                        "net": "g_config_data[31]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[0]",
+                        "net": "rd_gpio_out[0]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[1]",
+                        "net": "rd_gpio_out[1]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[2]",
+                        "net": "rd_gpio_out[2]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[3]",
+                        "net": "rd_gpio_out[3]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[4]",
+                        "net": "rd_gpio_out[4]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[5]",
+                        "net": "rd_gpio_out[5]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[6]",
+                        "net": "rd_gpio_out[6]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[7]",
+                        "net": "rd_gpio_out[7]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[0]",
+                        "net": "r_rd_gpio_out[0]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[1]",
+                        "net": "r_rd_gpio_out[1]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[2]",
+                        "net": "r_rd_gpio_out[2]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[3]",
+                        "net": "r_rd_gpio_out[3]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[4]",
+                        "net": "r_rd_gpio_out[4]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[5]",
+                        "net": "r_rd_gpio_out[5]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[6]",
+                        "net": "r_rd_gpio_out[6]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[7]",
+                        "net": "r_rd_gpio_out[7]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22",
+                        "net": "read",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la1_clk",
+                        "net": "rd_clk_int",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_wr_fifo",
+                            "u_efx_fifo_top"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe0",
+                        "net": "empty",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_write_ctrl"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe1[0]",
+                        "net": "rdata[0]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_wr_fifo"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe1[1]",
+                        "net": "rdata[1]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_wr_fifo"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe1[2]",
+                        "net": "rdata[2]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_wr_fifo"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe1[3]",
+                        "net": "rdata[3]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_wr_fifo"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe1[4]",
+                        "net": "rdata[4]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_wr_fifo"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe1[5]",
+                        "net": "rdata[5]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_wr_fifo"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe1[6]",
+                        "net": "rdata[6]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_wr_fifo"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe1[7]",
+                        "net": "rdata[7]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_wr_fifo"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe2",
+                        "net": "empty_o",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_wr_fifo"
+                        ]
+                    },
+                    {
+                        "name": "la2_clk",
+                        "net": "rd_clk_int",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_rd_fifo",
+                            "u_efx_fifo_top"
+                        ]
+                    },
+                    {
+                        "name": "la2_probe0[0]",
+                        "net": "w_gpio_rd_fifo_data[0]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la2_probe0[1]",
+                        "net": "w_gpio_rd_fifo_data[1]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la2_probe0[2]",
+                        "net": "w_gpio_rd_fifo_data[2]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la2_probe0[3]",
+                        "net": "w_gpio_rd_fifo_data[3]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la2_probe0[4]",
+                        "net": "w_gpio_rd_fifo_data[4]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la2_probe0[5]",
+                        "net": "w_gpio_rd_fifo_data[5]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la2_probe0[6]",
+                        "net": "w_gpio_rd_fifo_data[6]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la2_probe0[7]",
+                        "net": "w_gpio_rd_fifo_data[7]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la3_clk",
+                        "net": "wr_clk_int",
+                        "path": [
+                            "test_ppd_fifo",
+                            "u_efx_fifo_top"
+                        ]
+                    },
+                    {
+                        "name": "la3_probe0",
+                        "net": "f_empty",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_clk",
+                        "net": "rd_clk_int",
+                        "path": [
+                            "test_ppd_fifo",
+                            "u_efx_fifo_top"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[0]",
+                        "net": "fifo_read_data[0]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[1]",
+                        "net": "fifo_read_data[1]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[2]",
+                        "net": "fifo_read_data[2]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[3]",
+                        "net": "fifo_read_data[3]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[4]",
+                        "net": "fifo_read_data[4]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[5]",
+                        "net": "fifo_read_data[5]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[6]",
+                        "net": "fifo_read_data[6]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[7]",
+                        "net": "fifo_read_data[7]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[8]",
+                        "net": "fifo_read_data[8]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[9]",
+                        "net": "fifo_read_data[9]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[10]",
+                        "net": "fifo_read_data[10]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[11]",
+                        "net": "fifo_read_data[11]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[12]",
+                        "net": "fifo_read_data[12]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[13]",
+                        "net": "fifo_read_data[13]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[14]",
+                        "net": "fifo_read_data[14]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[15]",
+                        "net": "fifo_read_data[15]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[16]",
+                        "net": "fifo_read_data[16]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[17]",
+                        "net": "fifo_read_data[17]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[18]",
+                        "net": "fifo_read_data[18]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[19]",
+                        "net": "fifo_read_data[19]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[20]",
+                        "net": "fifo_read_data[20]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[21]",
+                        "net": "fifo_read_data[21]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[22]",
+                        "net": "fifo_read_data[22]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[23]",
+                        "net": "fifo_read_data[23]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[24]",
+                        "net": "fifo_read_data[24]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[25]",
+                        "net": "fifo_read_data[25]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[26]",
+                        "net": "fifo_read_data[26]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[27]",
+                        "net": "fifo_read_data[27]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[28]",
+                        "net": "fifo_read_data[28]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[29]",
+                        "net": "fifo_read_data[29]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[30]",
+                        "net": "fifo_read_data[30]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[31]",
+                        "net": "fifo_read_data[31]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[32]",
+                        "net": "fifo_read_data[32]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[33]",
+                        "net": "fifo_read_data[33]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[34]",
+                        "net": "fifo_read_data[34]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[35]",
+                        "net": "fifo_read_data[35]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[36]",
+                        "net": "fifo_read_data[36]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[37]",
+                        "net": "fifo_read_data[37]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[38]",
+                        "net": "fifo_read_data[38]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[39]",
+                        "net": "fifo_read_data[39]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[40]",
+                        "net": "fifo_read_data[40]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[41]",
+                        "net": "fifo_read_data[41]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[42]",
+                        "net": "fifo_read_data[42]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[43]",
+                        "net": "fifo_read_data[43]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[44]",
+                        "net": "fifo_read_data[44]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[45]",
+                        "net": "fifo_read_data[45]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[46]",
+                        "net": "fifo_read_data[46]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la4_probe0[47]",
+                        "net": "fifo_read_data[47]",
+                        "path": [
+                            "pp"
+                        ]
+                    },
+                    {
+                        "name": "la5_clk",
+                        "net": "clk2",
+                        "path": []
+                    },
+                    {
+                        "name": "la5_probe0",
+                        "net": "w_gpio_wr_en",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                        ]
+                    },
+                    {
+                        "name": "la5_probe1[0]",
+                        "net": "wdata[0]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_wr_fifo"
+                        ]
+                    },
+                    {
+                        "name": "la5_probe1[1]",
+                        "net": "wdata[1]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_wr_fifo"
+                        ]
+                    },
+                    {
+                        "name": "la5_probe1[2]",
+                        "net": "wdata[2]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_wr_fifo"
+                        ]
+                    },
+                    {
+                        "name": "la5_probe1[3]",
+                        "net": "wdata[3]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_wr_fifo"
+                        ]
+                    },
+                    {
+                        "name": "la5_probe1[4]",
+                        "net": "wdata[4]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_wr_fifo"
+                        ]
+                    },
+                    {
+                        "name": "la5_probe1[5]",
+                        "net": "wdata[5]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_wr_fifo"
+                        ]
+                    },
+                    {
+                        "name": "la5_probe1[6]",
+                        "net": "wdata[6]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_wr_fifo"
+                        ]
+                    },
+                    {
+                        "name": "la5_probe1[7]",
+                        "net": "wdata[7]",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_wr_fifo"
+                        ]
+                    },
+                    {
+                        "name": "la5_probe2",
+                        "net": "wr_en_i",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_wr_fifo"
+                        ]
+                    },
+                    {
+                        "name": "la6_clk",
+                        "net": "wr_clk_int",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_wr_fifo",
+                            "u_efx_fifo_top"
+                        ]
+                    },
+                    {
+                        "name": "la6_probe0",
+                        "net": "full_o",
+                        "path": [
+                            "pp",
+                            "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                            "GPIO_phy_dut",
+                            "gpio_wr_fifo"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "vdbs": [
+        {
+            "file": "debug_top.post.vdb",
+            "instance": "edb_top_inst"
+        }
+    ],
+    "session": {
+        "wizard": {
+            "data_depth": 2048,
+            "capture_control": true,
+            "selected_nets": [
+                {
+                    "name": "rw_config",
+                    "width": 8,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                        "GPIO_phy_dut",
+                        "gpio_write_ctrl"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "g_state",
+                    "width": 3,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                        "GPIO_phy_dut",
+                        "gpio_write_ctrl"
+                    ],
+                    "net_idx_left": 2,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "g_rd_fifo_en",
+                    "width": 1,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                        "GPIO_phy_dut",
+                        "gpio_write_ctrl"
+                    ]
+                },
+                {
+                    "name": "g_oe",
+                    "width": 32,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                        "GPIO_phy_dut",
+                        "gpio_write_ctrl"
+                    ],
+                    "net_idx_left": 31,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "g_data",
+                    "width": 8,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                        "GPIO_phy_dut",
+                        "gpio_write_ctrl"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "gpio_oe",
+                    "width": 8,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                        "GPIO_phy_dut",
+                        "gpio_write_ctrl"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "gpio_out",
+                    "width": 8,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                        "GPIO_phy_dut",
+                        "gpio_write_ctrl"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "gpio_in_prev",
+                    "width": 8,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                        "GPIO_phy_dut",
+                        "gpio_write_ctrl"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "gpio_config",
+                    "width": 32,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                        "GPIO_phy_dut",
+                        "gpio_write_ctrl"
+                    ],
+                    "net_idx_left": 31,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "empty",
+                    "width": 1,
+                    "clk_domain": "pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/rd_clk_int",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                        "GPIO_phy_dut",
+                        "gpio_write_ctrl"
+                    ]
+                },
+                {
+                    "name": "edge_config",
+                    "width": 8,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                        "GPIO_phy_dut",
+                        "gpio_write_ctrl"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "w_gpio_rd_fifo_data",
+                    "width": 8,
+                    "clk_domain": "pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_rd_fifo/u_efx_fifo_top/rd_clk_int",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "w_gpio_rd_fifo_en",
+                    "width": 1,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp"
+                    ],
+                    "net_idx_left": 0,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "w_gpio_dt_fifo_enable",
+                    "width": 1,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp"
+                    ],
+                    "net_idx_left": 0,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "w_gpio_dt_fifo_data",
+                    "width": 51,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp"
+                    ],
+                    "net_idx_left": 50,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "w_gpio_grp_en",
+                    "width": 1,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp"
+                    ]
+                },
+                {
+                    "name": "w_gpio_config_bus",
+                    "width": 32,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp"
+                    ],
+                    "net_idx_left": 31,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "gpio_out",
+                    "width": 8,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "gpio_oe",
+                    "width": 8,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "fifo_read_en",
+                    "width": 1,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp"
+                    ]
+                },
+                {
+                    "name": "fifo_en",
+                    "width": 1,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp"
+                    ]
+                },
+                {
+                    "name": "f_empty",
+                    "width": 1,
+                    "clk_domain": "test_ppd_fifo/u_efx_fifo_top/wr_clk_int",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp"
+                    ]
+                },
+                {
+                    "name": "fifo_read_data",
+                    "width": 48,
+                    "clk_domain": "test_ppd_fifo/u_efx_fifo_top/rd_clk_int",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp"
+                    ],
+                    "net_idx_left": 47,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "g_config_data",
+                    "width": 32,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                    ],
+                    "net_idx_left": 31,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "w_gpio_wr_en",
+                    "width": 1,
+                    "clk_domain": "clk2",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "GPIO_PERIPHERAL[0].GPIOPERIPHERAL"
+                    ]
+                },
+                {
+                    "name": "rd_gpio_out",
+                    "width": 8,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                        "GPIO_phy_dut",
+                        "gpio_write_ctrl"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "r_rd_gpio_out",
+                    "width": 8,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                        "GPIO_phy_dut",
+                        "gpio_write_ctrl"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "read",
+                    "width": 1,
+                    "clk_domain": "clk1",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                        "GPIO_phy_dut",
+                        "gpio_write_ctrl"
+                    ]
+                },
+                {
+                    "name": "wdata",
+                    "width": 8,
+                    "clk_domain": "clk2",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                        "GPIO_phy_dut",
+                        "gpio_wr_fifo"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "rdata",
+                    "width": 8,
+                    "clk_domain": "pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/rd_clk_int",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                        "GPIO_phy_dut",
+                        "gpio_wr_fifo"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "empty_o",
+                    "width": 1,
+                    "clk_domain": "pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/rd_clk_int",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                        "GPIO_phy_dut",
+                        "gpio_wr_fifo"
+                    ]
+                },
+                {
+                    "name": "full_o",
+                    "width": 1,
+                    "clk_domain": "pp/GPIO_PERIPHERAL[0].GPIOPERIPHERAL/GPIO_phy_dut/gpio_wr_fifo/u_efx_fifo_top/wr_clk_int",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                        "GPIO_phy_dut",
+                        "gpio_wr_fifo"
+                    ]
+                },
+                {
+                    "name": "wr_en_i",
+                    "width": 1,
+                    "clk_domain": "clk2",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "pp",
+                        "GPIO_PERIPHERAL[0].GPIOPERIPHERAL",
+                        "GPIO_phy_dut",
+                        "gpio_wr_fifo"
+                    ]
+                }
+            ],
+            "top_module": "test_module",
+            "db_checksum": "ba5fce12098a2c03e7bae2e9a172d1842464edfca8e284870b3519e987537970",
+            "src": "elaborate",
+            "jtag_user": "USER1",
+            "input_pipeline": 1
+        }
+    }
+}
